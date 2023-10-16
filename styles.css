@@ -1,0 +1,122 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 14px;
+    margin: 10px;
+    padding: 0;      
+    
+}
+.logo{font-size: 24px; padding-left: 10px;}
+
+nav{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
+
+}
+a{text-decoration: none;
+    color: white;
+    display: flex;    
+}
+
+.header{
+    display: flex;
+    height: 72px;
+    background-color: #1f2739;
+    
+}
+.footer{
+    background-color: #1f2739;
+    color: white;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.title{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    background-color: #1f2739;
+    padding: 20px;
+}
+.title .left-side{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: white;
+    
+}
+.title img{
+    
+    width: 300px;
+    height: auto;
+}
+.joinbtn{
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 70px;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{ font-size: 36px;
+    color:#1f2739;
+    font-weight: bolder;
+    text-align: center;
+    }
+.infocontent{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 12px;
+}
+.infocontent img{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.infocontent p{
+    width: 100px;
+    text-wrap: wrap;
+}
+.quote{
+    display: flex;
+    background-color: #e5e7eb;
+    flex: 1;
+    padding: 70px;
+    flex-direction: column;
+}
+.quotetext{
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2739;
+}
+.quoteauthor{
+    align-self: flex-end;
+    font-size: 36px;
+    color: #1f2739;
+}
+.bottom{
+    display: flex; 
+    padding: 60px;
+    
+}
+.bottomcontent{
+    background-color: #3882f6;
+    height: 70px; 
+    flex:1;  
+}
+.banner{display: flex;
+    
+}
