@@ -57,16 +57,22 @@ h1{
 }
 .joinbtn, .signbtn{
     align-self: flex-start;
-    background-color: #3882f6;
-    color: white;
+    background-color: #3882f6;    
     border-radius: 5px;
     padding: 5px;
     width: 70px;
     text-align: center;
     font-weight: 600;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 
+}
+.signbtn:hover
+{
+    background-color: grey;    
+}
+.joinbtn:hover{
+    background-color: grey;
 }
 .info{
     display: flex;
