@@ -39,20 +39,23 @@ a{text-decoration: none;
     justify-content: space-around;
     background-color: #1f2739;
     padding: 20px;
+    }
+h1{
+    font-size: 48px;
 }
 .title .left-side{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 35vw;
     color: white;
     
 }
 .title img{
-    
-    width: 300px;
-    height: auto;
+    align-self: center;    
+    width: auto;
+    height: 240px;
 }
-.joinbtn{
+.joinbtn, .signbtn{
     align-self: flex-start;
     background-color: #3882f6;
     color: white;
@@ -85,6 +88,11 @@ h2{ font-size: 36px;
     width: 100px;
     height: auto;
     border-radius: 5px;
+    border: 2px solid #3882f6;
+    transition: 0.3s;   
+}
+.infocontent img:hover{
+    transform: scale(2.5);
 }
 .infocontent p{
     width: 100px;
@@ -109,14 +117,36 @@ h2{ font-size: 36px;
 }
 .bottom{
     display: flex; 
-    padding: 60px;
-    
+    background-color: white;
+    justify-content: center;
+    padding: 40px;    
+    align-items: center; 
+       
 }
 .bottomcontent{
+    display: flex;
+    justify-content: space-between;
     background-color: #3882f6;
-    height: 70px; 
-    flex:1;  
-}
-.banner{display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    height: 10vh;
     
 }
+.bottom .left-side{
+    color: white;    
+    padding: 40px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.signbtn{
+    border: 2px solid #e5e7eb;
+    align-self: center;
+    text-wrap: nowrap;
+}
+.bottomcontent p{
+    text-wrap: wrap;
+}
+
+
